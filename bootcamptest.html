@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Register</title>
+</head>
+
+
+<body>
+  <h1><strong>Register</strong></h1>
+  <div>
+    <form action="http://google.com" method="get">
+      <label for="first-name"> First name:</label>
+      <input id="first-name" type="text" placeholder="john" required>
+
+      <label for="last-name">Last name:</label>
+      <input id: "last-name" type="text" placeholder="smith" required>
+  </div>
+
+  <div>
+    <label for="male">Male</label>
+    <input name="gender" id="male" type="radio" value="male">
+
+    <label for="female">Female</label>
+    <input name="gender" id="female" type="radio" value="female">
+
+    <label for="other">Other</label>
+    <input name="gender" id="other" type="radio" value="other">
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="your email" required>
+
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="your password" pattern=".{6,8}" required title="The password must be between 6 and 8 characters" required>
+  </div>
+
+  <div>
+    <label>Birthday:</label>
+    <select name="month">
+      <option>month</option>
+      <option>January</option>
+      <option>february</option>
+    </select>
+    <select name="day">
+      <option>day</option>
+      <option>1</option>
+      <option>2</option>
+    </select>
+    <select name="year">
+      <option>year</option>
+      <option>1991</option>
+      <option>1992</option>
+    </select>
+
+
+
+    <div>
+      <label for="conditions">I agree the terms and conditions</label>
+      <input id="conditions" type="checkbox" name="conditions">
+    </div>
+
+    <input type="submit">
+    </form>
+
+
+</body>
+
+
+
+</html>
